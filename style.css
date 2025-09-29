@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #ad4e4e;
+}
+h1 {
+  height: 70px;
+  background-color: #081829;
+  color: #f1ebeb;
+  text-align: center;
+  padding-top: 15px;
+}
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+button {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  margin-left: 50px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+.score {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  position: relative;
+  margin-bottom: 20px;
+}
+.You {
+  position: absolute;
+  left: 258px;
+  margin-bottom: 20px;
+}
+.Computer {
+  position: absolute;
+  right: 300px;
+  margin-bottom: 20px;
+}
+
+button:hover {
+  border: 5px solid #000;
+}
+.rock {
+  background-image: url("images/rock.png");
+}
+.paper {
+  background-image: url("images/paper.png");
+}
+.scissors {
+  background-image: url("images/scissors.png");
+}
+.result {
+  /* margin-top: 100px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 35px;
+}
+.userChoice {
+  margin-right: 80px;
+}
+h3 {
+  width: 400px;
+  margin: auto;
+  text-align: center;
+  margin-top: 60px;
+  font-size: 30px;
+  background-color: #016801;
+  border-radius: 15px;
+  color: #fff;
+  padding: 10px;
+}
