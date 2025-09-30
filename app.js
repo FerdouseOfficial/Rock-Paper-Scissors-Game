@@ -29,13 +29,20 @@ const genCompChoice = () => {
 
 const drawGame = () => {
   console.log("Game was draw");
+  winner.innerText = "Its a Draw. Play again.";
+  winner.style.backgroundColor = "#2d392d";
 };
 
+let winner = document.querySelector(".msg");
 const showWinner = (userWin) => {
   if (userWin) {
+    winner.innerText = "You Win";
+    winner.style.backgroundColor = "#17b017ff";
     console.log("You win");
   } else {
     console.log("You lose");
+    winner.style.backgroundColor = "#e01b3fff";
+    winner.innerText = "You lose";
   }
 };
 
