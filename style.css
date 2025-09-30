@@ -38,12 +38,12 @@ button {
   position: relative;
   margin-bottom: 20px;
 }
-.You {
+.Your_score{
   position: absolute;
   left: 258px;
   margin-bottom: 20px;
 }
-.Computer {
+.Computer_score {
   position: absolute;
   right: 300px;
   margin-bottom: 20px;
